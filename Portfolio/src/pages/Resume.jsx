@@ -14,7 +14,7 @@ const Resume = () => {
         <div className="resume-page">
             <h2>Resume</h2>
             <Document
-        file="Evelyn-Resume.pdf"
+        file="Evelyn-Resume"
         onLoadSuccess={onDocumentLoadSuccess}
       >
          {[1,2].map(page => (
